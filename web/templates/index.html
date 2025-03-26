@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Visuel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .pokemon-card {
+            transition: transform 0.2s;
+            height: 100%;
+        }
+        .pokemon-card:hover {
+            transform: scale(1.05);
+            z-index: 1;
+        }
+        .pokemon-img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+        }
+        .badge {
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .color-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        /* Type colors */
+        .type-Plante { background-color: #78C850; }
+        .type-Poison { background-color: #A040A0; }
+        .type-Feu { background-color: #F08030; }
+        .type-Vol { background-color: #A890F0; }
+        .type-Eau { background-color: #6890F0; }
+        .type-Insecte { background-color: #A8B820; }
+        .type-Normal { background-color: #A8A878; }
+        .type-Électrik { background-color: #F8D030; }
+        .type-Sol { background-color: #E0C068; }
+        .type-Combat { background-color: #C03028; }
+        .type-Psy { background-color: #F85888; }
+        .type-Roche { background-color: #B8A038; }
+        .type-Glace { background-color: #98D8D8; }
+        .type-Dragon { background-color: #7038F8; }
+        .type-Spectre { background-color: #705898; }
+        .type-Ténèbres { background-color: #705848; }
+        .type-Acier { background-color: #B8B8D0; }
+        .type-Fée { background-color: #EE99AC; }
+        /* Color dots */
+        .color-red { background-color: #ff4444; }
+        .color-blue { background-color: #4444ff; }
+        .color-green { background-color: #44ff44; }
+        .color-yellow { background-color: #ffff44; }
+        .color-brown { background-color: #8b4513; }
+        .color-purple { background-color: #8844ff; }
+        .color-pink { background-color: #ff44ff; }
+        .color-gray { background-color: #888888; }
+        .color-white { background-color: #ffffff; border: 1px solid #ddd; }
+        .color-black { background-color: #000000; }
+        /* Size badges */
+        .size-small { background-color: #90EE90; }  /* Light green */
+        .size-medium { background-color: #FFB366; } /* Light orange */
+        .size-large { background-color: #FF9999; }  /* Light red */
+        .size-light { background-color: #87CEEB; }  /* Light blue */
+        .size-heavy { background-color: #DDA0DD; }  /* Light purple */
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-4">
+        <h1 class="text-center mb-4">Pokédex Visuel</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            {% for pokemon in pokemon_data %}
+            <div class="col">
+                <div class="card pokemon-card shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="{{ pokemon.image_url }}" alt="{{ pokemon.nom }}" class="pokemon-img mb-2">
+                        <h5 class="card-title">#{{ '%03d' % pokemon.id }} {{ pokemon.nom }}</h5>
+                        <div class="mb-2">
+                            {% for type in pokemon.types %}
+                            <span class="badge type-{{ type }}">{{ type }}</span>
+                            {% endfor %}
+                        </div>
+                        <div class="mb-2">
+                            <span class="badge size-{{ 'small' if pokemon.taille <= 0.70 else 'large' if pokemon.taille > 1.50 else 'medium' }}">
+                                {{ 'Petit' if pokemon.taille <= 0.70 else 'Grand' if pokemon.taille > 1.50 else 'Moyen' }}
+                            </span>
+                            <span class="badge size-{{ 'light' if pokemon.poids <= 9.90 else 'heavy' if pokemon.poids > 56.25 else 'medium' }}">
+                                {{ 'Léger' if pokemon.poids <= 9.90 else 'Lourd' if pokemon.poids > 56.25 else 'Moyen' }}
+                            </span>
+                        </div>
+                        <div class="small text-muted">
+                            <div>Taille: {{ '%.1f' % pokemon.taille }}m</div>
+                            <div>Poids: {{ '%.1f' % pokemon.poids }}kg</div>
+                        </div>
+                        {% if pokemon.get('visual_attributes', {}).get('primary_color') %}
+                        <div class="mt-2 small">
+                            <div>
+                                <span class="color-dot color-{{ pokemon.visual_attributes.primary_color }}"></span>
+                                {{ pokemon.visual_attributes.primary_color|title }}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

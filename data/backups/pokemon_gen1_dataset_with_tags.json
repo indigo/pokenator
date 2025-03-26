@@ -1,0 +1,2379 @@
+[
+  {
+    "id": 1,
+    "nom": "Bulbizarre",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.7,
+    "poids": 6.9,
+    "evolution": [
+      1,
+      2,
+      3
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "local_image": "assets/pokemon/1.png",
+    "visual_tags": [
+      "green",
+      "light green",
+      "dark green spots",
+      "quadrupedal",
+      "bulb on back",
+      "red eyes",
+      "small teeth",
+      "cute",
+      "friendly",
+      "rounded"
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Salamèche",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.6,
+    "poids": 8.5,
+    "evolution": [
+      4,
+      5,
+      6
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "local_image": "assets/pokemon/4.png"
+  },
+  {
+    "id": 7,
+    "nom": "Carapuce",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.5,
+    "poids": 9.0,
+    "evolution": [
+      7,
+      8,
+      9
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "local_image": "assets/pokemon/7.png"
+  },
+  {
+    "id": 10,
+    "nom": "Chenipan",
+    "types": [
+      "Insecte"
+    ],
+    "taille": 0.3,
+    "poids": 2.9,
+    "evolution": [
+      10,
+      11,
+      12
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "local_image": "assets/pokemon/10.png"
+  },
+  {
+    "id": 13,
+    "nom": "Aspicot",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 0.3,
+    "poids": 3.2,
+    "evolution": [
+      13,
+      14,
+      15
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "local_image": "assets/pokemon/13.png"
+  },
+  {
+    "id": 16,
+    "nom": "Roucool",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 0.3,
+    "poids": 1.8,
+    "evolution": [
+      16,
+      17,
+      18
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "local_image": "assets/pokemon/16.png"
+  },
+  {
+    "id": 19,
+    "nom": "Rattata",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.3,
+    "poids": 3.5,
+    "evolution": [
+      19,
+      20
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "local_image": "assets/pokemon/19.png"
+  },
+  {
+    "id": 21,
+    "nom": "Piafabec",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 0.3,
+    "poids": 2.0,
+    "evolution": [
+      21,
+      22
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "local_image": "assets/pokemon/21.png"
+  },
+  {
+    "id": 23,
+    "nom": "Abo",
+    "types": [
+      "Poison"
+    ],
+    "taille": 2.0,
+    "poids": 6.9,
+    "evolution": [
+      23,
+      24
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "local_image": "assets/pokemon/23.png"
+  },
+  {
+    "id": 27,
+    "nom": "Sabelette",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.6,
+    "poids": 12.0,
+    "evolution": [
+      27,
+      28
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "local_image": "assets/pokemon/27.png"
+  },
+  {
+    "id": 29,
+    "nom": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.4,
+    "poids": 7.0,
+    "evolution": [
+      29,
+      30,
+      31
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "local_image": "assets/pokemon/29.png"
+  },
+  {
+    "id": 32,
+    "nom": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.5,
+    "poids": 9.0,
+    "evolution": [
+      32,
+      33,
+      34
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    "local_image": "assets/pokemon/32.png"
+  },
+  {
+    "id": 37,
+    "nom": "Goupix",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.6,
+    "poids": 9.9,
+    "evolution": [
+      37,
+      38
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "local_image": "assets/pokemon/37.png"
+  },
+  {
+    "id": 41,
+    "nom": "Nosferapti",
+    "types": [
+      "Poison",
+      "Vol"
+    ],
+    "taille": 0.8,
+    "poids": 7.5,
+    "evolution": [
+      41,
+      42
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "local_image": "assets/pokemon/41.png"
+  },
+  {
+    "id": 43,
+    "nom": "Mystherbe",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.5,
+    "poids": 5.4,
+    "evolution": [
+      43,
+      44,
+      45
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    "local_image": "assets/pokemon/43.png"
+  },
+  {
+    "id": 46,
+    "nom": "Paras",
+    "types": [
+      "Insecte",
+      "Plante"
+    ],
+    "taille": 0.3,
+    "poids": 5.4,
+    "evolution": [
+      46,
+      47
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    "local_image": "assets/pokemon/46.png"
+  },
+  {
+    "id": 48,
+    "nom": "Mimitoss",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 30.0,
+    "evolution": [
+      48,
+      49
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    "local_image": "assets/pokemon/48.png"
+  },
+  {
+    "id": 50,
+    "nom": "Taupiqueur",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.2,
+    "poids": 0.8,
+    "evolution": [
+      50,
+      51
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "local_image": "assets/pokemon/50.png"
+  },
+  {
+    "id": 52,
+    "nom": "Miaouss",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.4,
+    "poids": 4.2,
+    "evolution": [
+      52,
+      [
+        53
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "local_image": "assets/pokemon/52.png"
+  },
+  {
+    "id": 54,
+    "nom": "Psykokwak",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.8,
+    "poids": 19.6,
+    "evolution": [
+      54,
+      55
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "local_image": "assets/pokemon/54.png"
+  },
+  {
+    "id": 56,
+    "nom": "Férosinge",
+    "types": [
+      "Combat"
+    ],
+    "taille": 0.5,
+    "poids": 28.0,
+    "evolution": [
+      56,
+      57
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    "local_image": "assets/pokemon/56.png"
+  },
+  {
+    "id": 58,
+    "nom": "Caninos",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.7,
+    "poids": 19.0,
+    "evolution": [
+      58,
+      59
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    "local_image": "assets/pokemon/58.png"
+  },
+  {
+    "id": 60,
+    "nom": "Ptitard",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.6,
+    "poids": 12.4,
+    "evolution": [
+      60,
+      61,
+      62
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "local_image": "assets/pokemon/60.png"
+  },
+  {
+    "id": 63,
+    "nom": "Abra",
+    "types": [
+      "Psy"
+    ],
+    "taille": 0.9,
+    "poids": 19.5,
+    "evolution": [
+      63,
+      64,
+      65
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "local_image": "assets/pokemon/63.png"
+  },
+  {
+    "id": 66,
+    "nom": "Machoc",
+    "types": [
+      "Combat"
+    ],
+    "taille": 0.8,
+    "poids": 19.5,
+    "evolution": [
+      66,
+      67,
+      68
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "local_image": "assets/pokemon/66.png"
+  },
+  {
+    "id": 69,
+    "nom": "Chétiflor",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.7,
+    "poids": 4.0,
+    "evolution": [
+      69,
+      70,
+      71
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "local_image": "assets/pokemon/69.png"
+  },
+  {
+    "id": 72,
+    "nom": "Tentacool",
+    "types": [
+      "Eau",
+      "Poison"
+    ],
+    "taille": 0.9,
+    "poids": 45.5,
+    "evolution": [
+      72,
+      73
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    "local_image": "assets/pokemon/72.png"
+  },
+  {
+    "id": 74,
+    "nom": "Racaillou",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 0.4,
+    "poids": 20.0,
+    "evolution": [
+      74,
+      75,
+      76
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "local_image": "assets/pokemon/74.png"
+  },
+  {
+    "id": 3,
+    "nom": "Florizarre",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 2.0,
+    "poids": 100.0,
+    "evolution": [
+      1,
+      2,
+      3
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "local_image": "assets/pokemon/3.png"
+  },
+  {
+    "id": 5,
+    "nom": "Reptincel",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.1,
+    "poids": 19.0,
+    "evolution": [
+      4,
+      5,
+      6
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "local_image": "assets/pokemon/5.png"
+  },
+  {
+    "id": 6,
+    "nom": "Dracaufeu",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "taille": 1.7,
+    "poids": 90.5,
+    "evolution": [
+      4,
+      5,
+      6
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "local_image": "assets/pokemon/6.png"
+  },
+  {
+    "id": 8,
+    "nom": "Carabaffe",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 22.5,
+    "evolution": [
+      7,
+      8,
+      9
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "local_image": "assets/pokemon/8.png"
+  },
+  {
+    "id": 9,
+    "nom": "Tortank",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.6,
+    "poids": 85.5,
+    "evolution": [
+      7,
+      8,
+      9
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "local_image": "assets/pokemon/9.png"
+  },
+  {
+    "id": 11,
+    "nom": "Chrysacier",
+    "types": [
+      "Insecte"
+    ],
+    "taille": 0.7,
+    "poids": 9.9,
+    "evolution": [
+      10,
+      11,
+      12
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "local_image": "assets/pokemon/11.png"
+  },
+  {
+    "id": 12,
+    "nom": "Papilusion",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "taille": 1.1,
+    "poids": 32.0,
+    "evolution": [
+      10,
+      11,
+      12
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "local_image": "assets/pokemon/12.png"
+  },
+  {
+    "id": 14,
+    "nom": "Coconfort",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 0.6,
+    "poids": 10.0,
+    "evolution": [
+      13,
+      14,
+      15
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "local_image": "assets/pokemon/14.png"
+  },
+  {
+    "id": 15,
+    "nom": "Dardargnan",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 29.5,
+    "evolution": [
+      13,
+      14,
+      15
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "local_image": "assets/pokemon/15.png"
+  },
+  {
+    "id": 17,
+    "nom": "Roucoups",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.1,
+    "poids": 30.0,
+    "evolution": [
+      16,
+      17,
+      18
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "local_image": "assets/pokemon/17.png"
+  },
+  {
+    "id": 18,
+    "nom": "Roucarnage",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.5,
+    "poids": 39.5,
+    "evolution": [
+      16,
+      17,
+      18
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "local_image": "assets/pokemon/18.png"
+  },
+  {
+    "id": 20,
+    "nom": "Rattatac",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.7,
+    "poids": 18.5,
+    "evolution": [
+      19,
+      20
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "local_image": "assets/pokemon/20.png"
+  },
+  {
+    "id": 22,
+    "nom": "Rapasdepic",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.2,
+    "poids": 38.0,
+    "evolution": [
+      21,
+      22
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "local_image": "assets/pokemon/22.png"
+  },
+  {
+    "id": 24,
+    "nom": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "taille": 3.5,
+    "poids": 65.0,
+    "evolution": [
+      23,
+      24
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "local_image": "assets/pokemon/24.png"
+  },
+  {
+    "id": 25,
+    "nom": "Pikachu",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.4,
+    "poids": 6.0,
+    "evolution": [
+      172,
+      25,
+      26
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "local_image": "assets/pokemon/25.png"
+  },
+  {
+    "id": 26,
+    "nom": "Raichu",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.8,
+    "poids": 30.0,
+    "evolution": [
+      172,
+      25,
+      26
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "local_image": "assets/pokemon/26.png"
+  },
+  {
+    "id": 28,
+    "nom": "Sablaireau",
+    "types": [
+      "Sol"
+    ],
+    "taille": 1.0,
+    "poids": 29.5,
+    "evolution": [
+      27,
+      28
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "local_image": "assets/pokemon/28.png"
+  },
+  {
+    "id": 30,
+    "nom": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.8,
+    "poids": 20.0,
+    "evolution": [
+      29,
+      30,
+      31
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "local_image": "assets/pokemon/30.png"
+  },
+  {
+    "id": 31,
+    "nom": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Sol"
+    ],
+    "taille": 1.3,
+    "poids": 60.0,
+    "evolution": [
+      29,
+      30,
+      31
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    "local_image": "assets/pokemon/31.png"
+  },
+  {
+    "id": 33,
+    "nom": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.9,
+    "poids": 19.5,
+    "evolution": [
+      32,
+      33,
+      34
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    "local_image": "assets/pokemon/33.png"
+  },
+  {
+    "id": 34,
+    "nom": "Nidoking",
+    "types": [
+      "Poison",
+      "Sol"
+    ],
+    "taille": 1.4,
+    "poids": 62.0,
+    "evolution": [
+      32,
+      33,
+      34
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    "local_image": "assets/pokemon/34.png"
+  },
+  {
+    "id": 35,
+    "nom": "Mélofée",
+    "types": [
+      "Fée"
+    ],
+    "taille": 0.6,
+    "poids": 7.5,
+    "evolution": [
+      173,
+      35,
+      36
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "local_image": "assets/pokemon/35.png"
+  },
+  {
+    "id": 36,
+    "nom": "Mélodelfe",
+    "types": [
+      "Fée"
+    ],
+    "taille": 1.3,
+    "poids": 40.0,
+    "evolution": [
+      173,
+      35,
+      36
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "local_image": "assets/pokemon/36.png"
+  },
+  {
+    "id": 38,
+    "nom": "Feunard",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.1,
+    "poids": 19.9,
+    "evolution": [
+      37,
+      38
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "local_image": "assets/pokemon/38.png"
+  },
+  {
+    "id": 39,
+    "nom": "Rondoudou",
+    "types": [
+      "Normal",
+      "Fée"
+    ],
+    "taille": 0.5,
+    "poids": 5.5,
+    "evolution": [
+      174,
+      39,
+      40
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "local_image": "assets/pokemon/39.png"
+  },
+  {
+    "id": 40,
+    "nom": "Grodoudou",
+    "types": [
+      "Normal",
+      "Fée"
+    ],
+    "taille": 1.0,
+    "poids": 12.0,
+    "evolution": [
+      174,
+      39,
+      40
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    "local_image": "assets/pokemon/40.png"
+  },
+  {
+    "id": 42,
+    "nom": "Nosferalto",
+    "types": [
+      "Poison",
+      "Vol"
+    ],
+    "taille": 1.6,
+    "poids": 55.0,
+    "evolution": [
+      41,
+      42
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    "local_image": "assets/pokemon/42.png"
+  },
+  {
+    "id": 44,
+    "nom": "Ortide",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.8,
+    "poids": 8.6,
+    "evolution": [
+      43,
+      44,
+      45
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    "local_image": "assets/pokemon/44.png"
+  },
+  {
+    "id": 45,
+    "nom": "Rafflesia",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.2,
+    "poids": 18.6,
+    "evolution": [
+      43,
+      44,
+      45
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "local_image": "assets/pokemon/45.png"
+  },
+  {
+    "id": 47,
+    "nom": "Parasect",
+    "types": [
+      "Insecte",
+      "Plante"
+    ],
+    "taille": 1.0,
+    "poids": 29.5,
+    "evolution": [
+      46,
+      47
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    "local_image": "assets/pokemon/47.png"
+  },
+  {
+    "id": 49,
+    "nom": "Aéromite",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 1.5,
+    "poids": 12.5,
+    "evolution": [
+      48,
+      49
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    "local_image": "assets/pokemon/49.png"
+  },
+  {
+    "id": 51,
+    "nom": "Triopikeur",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.7,
+    "poids": 33.3,
+    "evolution": [
+      50,
+      51
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    "local_image": "assets/pokemon/51.png"
+  },
+  {
+    "id": 53,
+    "nom": "Persian",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.0,
+    "poids": 32.0,
+    "evolution": [
+      52,
+      [
+        53
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    "local_image": "assets/pokemon/53.png"
+  },
+  {
+    "id": 55,
+    "nom": "Akwakwak",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.7,
+    "poids": 76.6,
+    "evolution": [
+      54,
+      55
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    "local_image": "assets/pokemon/55.png"
+  },
+  {
+    "id": 57,
+    "nom": "Colossinge",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.0,
+    "poids": 32.0,
+    "evolution": [
+      56,
+      57
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    "local_image": "assets/pokemon/57.png"
+  },
+  {
+    "id": 59,
+    "nom": "Arcanin",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.9,
+    "poids": 155.0,
+    "evolution": [
+      58,
+      59
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "local_image": "assets/pokemon/59.png"
+  },
+  {
+    "id": 61,
+    "nom": "Têtarte",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 20.0,
+    "evolution": [
+      60,
+      61,
+      62
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    "local_image": "assets/pokemon/61.png"
+  },
+  {
+    "id": 62,
+    "nom": "Tartard",
+    "types": [
+      "Eau",
+      "Combat"
+    ],
+    "taille": 1.3,
+    "poids": 54.0,
+    "evolution": [
+      60,
+      61,
+      62
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    "local_image": "assets/pokemon/62.png"
+  },
+  {
+    "id": 64,
+    "nom": "Kadabra",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.3,
+    "poids": 56.5,
+    "evolution": [
+      63,
+      64,
+      65
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "local_image": "assets/pokemon/64.png"
+  },
+  {
+    "id": 65,
+    "nom": "Alakazam",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.5,
+    "poids": 48.0,
+    "evolution": [
+      63,
+      64,
+      65
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "local_image": "assets/pokemon/65.png"
+  },
+  {
+    "id": 67,
+    "nom": "Machopeur",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.5,
+    "poids": 70.5,
+    "evolution": [
+      66,
+      67,
+      68
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "local_image": "assets/pokemon/67.png"
+  },
+  {
+    "id": 68,
+    "nom": "Mackogneur",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.6,
+    "poids": 130.0,
+    "evolution": [
+      66,
+      67,
+      68
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "local_image": "assets/pokemon/68.png"
+  },
+  {
+    "id": 70,
+    "nom": "Boustiflor",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 6.4,
+    "evolution": [
+      69,
+      70,
+      71
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "local_image": "assets/pokemon/70.png"
+  },
+  {
+    "id": 71,
+    "nom": "Empiflor",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.7,
+    "poids": 15.5,
+    "evolution": [
+      69,
+      70,
+      71
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "local_image": "assets/pokemon/71.png"
+  },
+  {
+    "id": 73,
+    "nom": "Tentacruel",
+    "types": [
+      "Eau",
+      "Poison"
+    ],
+    "taille": 1.6,
+    "poids": 55.0,
+    "evolution": [
+      72,
+      73
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    "local_image": "assets/pokemon/73.png"
+  },
+  {
+    "id": 75,
+    "nom": "Gravalanch",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 1.0,
+    "poids": 105.0,
+    "evolution": [
+      74,
+      75,
+      76
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    "local_image": "assets/pokemon/75.png"
+  },
+  {
+    "id": 77,
+    "nom": "Ponyta",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.0,
+    "poids": 30.0,
+    "evolution": [
+      77,
+      78
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    "local_image": "assets/pokemon/77.png"
+  },
+  {
+    "id": 79,
+    "nom": "Ramoloss",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "taille": 1.2,
+    "poids": 36.0,
+    "evolution": [
+      79,
+      [
+        80
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "local_image": "assets/pokemon/79.png"
+  },
+  {
+    "id": 81,
+    "nom": "Magnéti",
+    "types": [
+      "Électrik",
+      "Acier"
+    ],
+    "taille": 0.3,
+    "poids": 6.0,
+    "evolution": [
+      81,
+      82
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    "local_image": "assets/pokemon/81.png"
+  },
+  {
+    "id": 83,
+    "nom": "Canarticho",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 0.8,
+    "poids": 15.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    "local_image": "assets/pokemon/83.png"
+  },
+  {
+    "id": 84,
+    "nom": "Doduo",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.4,
+    "poids": 39.2,
+    "evolution": [
+      84,
+      85
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    "local_image": "assets/pokemon/84.png"
+  },
+  {
+    "id": 86,
+    "nom": "Otaria",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.1,
+    "poids": 90.0,
+    "evolution": [
+      86,
+      87
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    "local_image": "assets/pokemon/86.png"
+  },
+  {
+    "id": 88,
+    "nom": "Tadmorv",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.9,
+    "poids": 30.0,
+    "evolution": [
+      88,
+      89
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    "local_image": "assets/pokemon/88.png"
+  },
+  {
+    "id": 90,
+    "nom": "Kokiyas",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.3,
+    "poids": 4.0,
+    "evolution": [
+      90,
+      91
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    "local_image": "assets/pokemon/90.png"
+  },
+  {
+    "id": 92,
+    "nom": "Fantominus",
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "taille": 1.3,
+    "poids": 0.1,
+    "evolution": [
+      92,
+      93,
+      94
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "local_image": "assets/pokemon/92.png"
+  },
+  {
+    "id": 95,
+    "nom": "Onix",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 8.8,
+    "poids": 210.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "local_image": "assets/pokemon/95.png"
+  },
+  {
+    "id": 96,
+    "nom": "Soporifik",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.0,
+    "poids": 32.4,
+    "evolution": [
+      96,
+      97
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "local_image": "assets/pokemon/96.png"
+  },
+  {
+    "id": 98,
+    "nom": "Krabby",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.4,
+    "poids": 6.5,
+    "evolution": [
+      98,
+      99
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    "local_image": "assets/pokemon/98.png"
+  },
+  {
+    "id": 100,
+    "nom": "Voltorbe",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.5,
+    "poids": 10.4,
+    "evolution": [
+      100,
+      101
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    "local_image": "assets/pokemon/100.png"
+  },
+  {
+    "id": 102,
+    "nom": "Noeunoeuf",
+    "types": [
+      "Plante",
+      "Psy"
+    ],
+    "taille": 0.4,
+    "poids": 2.5,
+    "evolution": [
+      102,
+      103
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    "local_image": "assets/pokemon/102.png"
+  },
+  {
+    "id": 104,
+    "nom": "Osselait",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.4,
+    "poids": 6.5,
+    "evolution": [
+      104,
+      105
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "local_image": "assets/pokemon/104.png"
+  },
+  {
+    "id": 108,
+    "nom": "Excelangue",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.2,
+    "poids": 65.5,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    "local_image": "assets/pokemon/108.png"
+  },
+  {
+    "id": 109,
+    "nom": "Smogo",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.6,
+    "poids": 1.0,
+    "evolution": [
+      109,
+      110
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    "local_image": "assets/pokemon/109.png"
+  },
+  {
+    "id": 111,
+    "nom": "Rhinocorne",
+    "types": [
+      "Sol",
+      "Roche"
+    ],
+    "taille": 1.0,
+    "poids": 115.0,
+    "evolution": [
+      111,
+      112
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "local_image": "assets/pokemon/111.png"
+  },
+  {
+    "id": 114,
+    "nom": "Saquedeneu",
+    "types": [
+      "Plante"
+    ],
+    "taille": 1.0,
+    "poids": 35.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    "local_image": "assets/pokemon/114.png"
+  },
+  {
+    "id": 115,
+    "nom": "Kangourex",
+    "types": [
+      "Normal"
+    ],
+    "taille": 2.2,
+    "poids": 80.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "local_image": "assets/pokemon/115.png"
+  },
+  {
+    "id": 116,
+    "nom": "Hypotrempe",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.4,
+    "poids": 8.0,
+    "evolution": [
+      116,
+      117
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    "local_image": "assets/pokemon/116.png"
+  },
+  {
+    "id": 118,
+    "nom": "Poissirène",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.6,
+    "poids": 15.0,
+    "evolution": [
+      118,
+      119
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    "local_image": "assets/pokemon/118.png"
+  },
+  {
+    "id": 120,
+    "nom": "Stari",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.8,
+    "poids": 34.5,
+    "evolution": [
+      120,
+      121
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "local_image": "assets/pokemon/120.png"
+  },
+  {
+    "id": 123,
+    "nom": "Insécateur",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "taille": 1.5,
+    "poids": 56.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "local_image": "assets/pokemon/123.png"
+  },
+  {
+    "id": 127,
+    "nom": "Scarabrute",
+    "types": [
+      "Insecte"
+    ],
+    "taille": 1.5,
+    "poids": 55.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "local_image": "assets/pokemon/127.png"
+  },
+  {
+    "id": 128,
+    "nom": "Tauros",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.4,
+    "poids": 88.4,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    "local_image": "assets/pokemon/128.png"
+  },
+  {
+    "id": 129,
+    "nom": "Magicarpe",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.9,
+    "poids": 10.0,
+    "evolution": [
+      129,
+      130
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "local_image": "assets/pokemon/129.png"
+  },
+  {
+    "id": 131,
+    "nom": "Lokhlass",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "taille": 2.5,
+    "poids": 220.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "local_image": "assets/pokemon/131.png"
+  },
+  {
+    "id": 132,
+    "nom": "Métamorph",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.3,
+    "poids": 4.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    "local_image": "assets/pokemon/132.png"
+  },
+  {
+    "id": 133,
+    "nom": "Évoli",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.3,
+    "poids": 6.5,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "local_image": "assets/pokemon/133.png"
+  },
+  {
+    "id": 137,
+    "nom": "Porygon",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.8,
+    "poids": 36.5,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    "local_image": "assets/pokemon/137.png"
+  },
+  {
+    "id": 138,
+    "nom": "Amonita",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 0.4,
+    "poids": 7.5,
+    "evolution": [
+      138,
+      139
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    "local_image": "assets/pokemon/138.png"
+  },
+  {
+    "id": 140,
+    "nom": "Kabuto",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 0.5,
+    "poids": 11.5,
+    "evolution": [
+      140,
+      141
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    "local_image": "assets/pokemon/140.png"
+  },
+  {
+    "id": 142,
+    "nom": "Ptéra",
+    "types": [
+      "Roche",
+      "Vol"
+    ],
+    "taille": 1.8,
+    "poids": 59.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "local_image": "assets/pokemon/142.png"
+  },
+  {
+    "id": 144,
+    "nom": "Artikodin",
+    "types": [
+      "Glace",
+      "Vol"
+    ],
+    "taille": 1.7,
+    "poids": 55.4,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "local_image": "assets/pokemon/144.png"
+  },
+  {
+    "id": 145,
+    "nom": "Électhor",
+    "types": [
+      "Électrik",
+      "Vol"
+    ],
+    "taille": 1.6,
+    "poids": 52.6,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "local_image": "assets/pokemon/145.png"
+  },
+  {
+    "id": 146,
+    "nom": "Sulfura",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "taille": 2.0,
+    "poids": 60.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "local_image": "assets/pokemon/146.png"
+  },
+  {
+    "id": 147,
+    "nom": "Minidraco",
+    "types": [
+      "Dragon"
+    ],
+    "taille": 1.8,
+    "poids": 3.3,
+    "evolution": [
+      147,
+      148,
+      149
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "local_image": "assets/pokemon/147.png"
+  },
+  {
+    "id": 150,
+    "nom": "Mewtwo",
+    "types": [
+      "Psy"
+    ],
+    "taille": 2.0,
+    "poids": 122.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "local_image": "assets/pokemon/150.png"
+  },
+  {
+    "id": 78,
+    "nom": "Galopa",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.7,
+    "poids": 95.0,
+    "evolution": [
+      77,
+      78
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    "local_image": "assets/pokemon/78.png"
+  },
+  {
+    "id": 80,
+    "nom": "Flagadoss",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "taille": 1.6,
+    "poids": 78.5,
+    "evolution": [
+      79,
+      [
+        80
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "local_image": "assets/pokemon/80.png"
+  },
+  {
+    "id": 82,
+    "nom": "Magnéton",
+    "types": [
+      "Électrik",
+      "Acier"
+    ],
+    "taille": 1.0,
+    "poids": 60.0,
+    "evolution": [
+      81,
+      82
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    "local_image": "assets/pokemon/82.png"
+  },
+  {
+    "id": 85,
+    "nom": "Dodrio",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.8,
+    "poids": 85.2,
+    "evolution": [
+      84,
+      85
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    "local_image": "assets/pokemon/85.png"
+  },
+  {
+    "id": 87,
+    "nom": "Lamantine",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "taille": 1.7,
+    "poids": 120.0,
+    "evolution": [
+      86,
+      87
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    "local_image": "assets/pokemon/87.png"
+  },
+  {
+    "id": 89,
+    "nom": "Grotadmorv",
+    "types": [
+      "Poison"
+    ],
+    "taille": 1.2,
+    "poids": 30.0,
+    "evolution": [
+      88,
+      89
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    "local_image": "assets/pokemon/89.png"
+  },
+  {
+    "id": 91,
+    "nom": "Crustabri",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "taille": 1.5,
+    "poids": 132.5,
+    "evolution": [
+      90,
+      91
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    "local_image": "assets/pokemon/91.png"
+  },
+  {
+    "id": 93,
+    "nom": "Spectrum",
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "taille": 1.6,
+    "poids": 0.1,
+    "evolution": [
+      92,
+      93,
+      94
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "local_image": "assets/pokemon/93.png"
+  },
+  {
+    "id": 94,
+    "nom": "Ectoplasma",
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "taille": 1.5,
+    "poids": 40.5,
+    "evolution": [
+      92,
+      93,
+      94
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "local_image": "assets/pokemon/94.png"
+  },
+  {
+    "id": 97,
+    "nom": "Hypnomade",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.6,
+    "poids": 75.6,
+    "evolution": [
+      96,
+      97
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    "local_image": "assets/pokemon/97.png"
+  },
+  {
+    "id": 99,
+    "nom": "Krabboss",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.3,
+    "poids": 60.0,
+    "evolution": [
+      98,
+      99
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    "local_image": "assets/pokemon/99.png"
+  },
+  {
+    "id": 101,
+    "nom": "Électrode",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 1.2,
+    "poids": 66.6,
+    "evolution": [
+      100,
+      101
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    "local_image": "assets/pokemon/101.png"
+  },
+  {
+    "id": 103,
+    "nom": "Noadkoko",
+    "types": [
+      "Plante",
+      "Psy"
+    ],
+    "taille": 2.0,
+    "poids": 120.0,
+    "evolution": [
+      102,
+      103
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "local_image": "assets/pokemon/103.png"
+  },
+  {
+    "id": 105,
+    "nom": "Ossatueur",
+    "types": [
+      "Sol"
+    ],
+    "taille": 1.0,
+    "poids": 45.0,
+    "evolution": [
+      104,
+      105
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    "local_image": "assets/pokemon/105.png"
+  },
+  {
+    "id": 106,
+    "nom": "Kicklee",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.5,
+    "poids": 49.8,
+    "evolution": [
+      236,
+      [
+        106,
+        107
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    "local_image": "assets/pokemon/106.png"
+  },
+  {
+    "id": 107,
+    "nom": "Tygnon",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.4,
+    "poids": 50.2,
+    "evolution": [
+      236,
+      [
+        106,
+        107
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    "local_image": "assets/pokemon/107.png"
+  },
+  {
+    "id": 110,
+    "nom": "Smogogo",
+    "types": [
+      "Poison"
+    ],
+    "taille": 1.2,
+    "poids": 9.5,
+    "evolution": [
+      109,
+      110
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    "local_image": "assets/pokemon/110.png"
+  },
+  {
+    "id": 112,
+    "nom": "Rhinoféros",
+    "types": [
+      "Sol",
+      "Roche"
+    ],
+    "taille": 1.9,
+    "poids": 120.0,
+    "evolution": [
+      111,
+      112
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "local_image": "assets/pokemon/112.png"
+  },
+  {
+    "id": 113,
+    "nom": "Leveinard",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.1,
+    "poids": 34.6,
+    "evolution": [
+      440,
+      113
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    "local_image": "assets/pokemon/113.png"
+  },
+  {
+    "id": 117,
+    "nom": "Hypocéan",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.2,
+    "poids": 25.0,
+    "evolution": [
+      116,
+      117
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    "local_image": "assets/pokemon/117.png"
+  },
+  {
+    "id": 119,
+    "nom": "Poissoroy",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.3,
+    "poids": 39.0,
+    "evolution": [
+      118,
+      119
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    "local_image": "assets/pokemon/119.png"
+  },
+  {
+    "id": 121,
+    "nom": "Staross",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "taille": 1.1,
+    "poids": 80.0,
+    "evolution": [
+      120,
+      121
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "local_image": "assets/pokemon/121.png"
+  },
+  {
+    "id": 122,
+    "nom": "M. Mime",
+    "types": [
+      "Psy",
+      "Fée"
+    ],
+    "taille": 1.3,
+    "poids": 54.5,
+    "evolution": [
+      439,
+      122
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    "local_image": "assets/pokemon/122.png"
+  },
+  {
+    "id": 124,
+    "nom": "Lippoutou",
+    "types": [
+      "Glace",
+      "Psy"
+    ],
+    "taille": 1.4,
+    "poids": 40.6,
+    "evolution": [
+      238,
+      124
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    "local_image": "assets/pokemon/124.png"
+  },
+  {
+    "id": 125,
+    "nom": "Élektek",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 1.1,
+    "poids": 30.0,
+    "evolution": [
+      239,
+      125
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "local_image": "assets/pokemon/125.png"
+  },
+  {
+    "id": 126,
+    "nom": "Magmar",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.3,
+    "poids": 44.5,
+    "evolution": [
+      240,
+      126
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "local_image": "assets/pokemon/126.png"
+  },
+  {
+    "id": 130,
+    "nom": "Léviator",
+    "types": [
+      "Eau",
+      "Vol"
+    ],
+    "taille": 6.5,
+    "poids": 235.0,
+    "evolution": [
+      129,
+      130
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "local_image": "assets/pokemon/130.png"
+  },
+  {
+    "id": 134,
+    "nom": "Aquali",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 29.0,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "local_image": "assets/pokemon/134.png"
+  },
+  {
+    "id": 135,
+    "nom": "Voltali",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.8,
+    "poids": 24.5,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "local_image": "assets/pokemon/135.png"
+  },
+  {
+    "id": 136,
+    "nom": "Pyroli",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.9,
+    "poids": 25.0,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "local_image": "assets/pokemon/136.png"
+  },
+  {
+    "id": 139,
+    "nom": "Amonistar",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 35.0,
+    "evolution": [
+      138,
+      139
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    "local_image": "assets/pokemon/139.png"
+  },
+  {
+    "id": 141,
+    "nom": "Kabutops",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 1.3,
+    "poids": 40.5,
+    "evolution": [
+      140,
+      141
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    "local_image": "assets/pokemon/141.png"
+  },
+  {
+    "id": 143,
+    "nom": "Ronflex",
+    "types": [
+      "Normal"
+    ],
+    "taille": 2.1,
+    "poids": 460.0,
+    "evolution": [
+      446,
+      143
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "local_image": "assets/pokemon/143.png"
+  },
+  {
+    "id": 148,
+    "nom": "Draco",
+    "types": [
+      "Dragon"
+    ],
+    "taille": 4.0,
+    "poids": 16.5,
+    "evolution": [
+      147,
+      148,
+      149
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "local_image": "assets/pokemon/148.png"
+  },
+  {
+    "id": 149,
+    "nom": "Dracolosse",
+    "types": [
+      "Dragon",
+      "Vol"
+    ],
+    "taille": 2.2,
+    "poids": 210.0,
+    "evolution": [
+      147,
+      148,
+      149
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "local_image": "assets/pokemon/149.png"
+  },
+  {
+    "id": 151,
+    "nom": "Mew",
+    "types": [
+      "Psy"
+    ],
+    "taille": 0.4,
+    "poids": 4.0,
+    "evolution": [],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "local_image": "assets/pokemon/151.png"
+  },
+  {
+    "id": 2,
+    "nom": "Herbizarre",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 13.0,
+    "evolution": [
+      1,
+      2,
+      3
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "local_image": "assets/pokemon/2.png"
+  },
+  {
+    "id": 76,
+    "nom": "Grolem",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 1.4,
+    "poids": 300.0,
+    "evolution": [
+      74,
+      75,
+      76
+    ],
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "local_image": "assets/pokemon/76.png"
+  }
+]

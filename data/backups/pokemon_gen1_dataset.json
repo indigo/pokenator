@@ -1,0 +1,2065 @@
+[
+  {
+    "id": 1,
+    "nom": "Bulbizarre",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.7,
+    "poids": 6.9,
+    "evolution": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Salamèche",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.6,
+    "poids": 8.5,
+    "evolution": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 7,
+    "nom": "Carapuce",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.5,
+    "poids": 9.0,
+    "evolution": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 10,
+    "nom": "Chenipan",
+    "types": [
+      "Insecte"
+    ],
+    "taille": 0.3,
+    "poids": 2.9,
+    "evolution": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 13,
+    "nom": "Aspicot",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 0.3,
+    "poids": 3.2,
+    "evolution": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 16,
+    "nom": "Roucool",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 0.3,
+    "poids": 1.8,
+    "evolution": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "id": 19,
+    "nom": "Rattata",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.3,
+    "poids": 3.5,
+    "evolution": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 21,
+    "nom": "Piafabec",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 0.3,
+    "poids": 2.0,
+    "evolution": [
+      21,
+      22
+    ]
+  },
+  {
+    "id": 23,
+    "nom": "Abo",
+    "types": [
+      "Poison"
+    ],
+    "taille": 2.0,
+    "poids": 6.9,
+    "evolution": [
+      23,
+      24
+    ]
+  },
+  {
+    "id": 27,
+    "nom": "Sabelette",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.6,
+    "poids": 12.0,
+    "evolution": [
+      27,
+      28
+    ]
+  },
+  {
+    "id": 29,
+    "nom": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.4,
+    "poids": 7.0,
+    "evolution": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": 32,
+    "nom": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.5,
+    "poids": 9.0,
+    "evolution": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "id": 37,
+    "nom": "Goupix",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.6,
+    "poids": 9.9,
+    "evolution": [
+      37,
+      38
+    ]
+  },
+  {
+    "id": 41,
+    "nom": "Nosferapti",
+    "types": [
+      "Poison",
+      "Vol"
+    ],
+    "taille": 0.8,
+    "poids": 7.5,
+    "evolution": [
+      41,
+      42
+    ]
+  },
+  {
+    "id": 43,
+    "nom": "Mystherbe",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.5,
+    "poids": 5.4,
+    "evolution": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": 46,
+    "nom": "Paras",
+    "types": [
+      "Insecte",
+      "Plante"
+    ],
+    "taille": 0.3,
+    "poids": 5.4,
+    "evolution": [
+      46,
+      47
+    ]
+  },
+  {
+    "id": 48,
+    "nom": "Mimitoss",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 30.0,
+    "evolution": [
+      48,
+      49
+    ]
+  },
+  {
+    "id": 50,
+    "nom": "Taupiqueur",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.2,
+    "poids": 0.8,
+    "evolution": [
+      50,
+      51
+    ]
+  },
+  {
+    "id": 52,
+    "nom": "Miaouss",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.4,
+    "poids": 4.2,
+    "evolution": [
+      52,
+      [
+        53
+      ]
+    ]
+  },
+  {
+    "id": 54,
+    "nom": "Psykokwak",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.8,
+    "poids": 19.6,
+    "evolution": [
+      54,
+      55
+    ]
+  },
+  {
+    "id": 56,
+    "nom": "Férosinge",
+    "types": [
+      "Combat"
+    ],
+    "taille": 0.5,
+    "poids": 28.0,
+    "evolution": [
+      56,
+      57
+    ]
+  },
+  {
+    "id": 58,
+    "nom": "Caninos",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.7,
+    "poids": 19.0,
+    "evolution": [
+      58,
+      59
+    ]
+  },
+  {
+    "id": 60,
+    "nom": "Ptitard",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.6,
+    "poids": 12.4,
+    "evolution": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": 63,
+    "nom": "Abra",
+    "types": [
+      "Psy"
+    ],
+    "taille": 0.9,
+    "poids": 19.5,
+    "evolution": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "id": 66,
+    "nom": "Machoc",
+    "types": [
+      "Combat"
+    ],
+    "taille": 0.8,
+    "poids": 19.5,
+    "evolution": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "id": 69,
+    "nom": "Chétiflor",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.7,
+    "poids": 4.0,
+    "evolution": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "id": 72,
+    "nom": "Tentacool",
+    "types": [
+      "Eau",
+      "Poison"
+    ],
+    "taille": 0.9,
+    "poids": 45.5,
+    "evolution": [
+      72,
+      73
+    ]
+  },
+  {
+    "id": 74,
+    "nom": "Racaillou",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 0.4,
+    "poids": 20.0,
+    "evolution": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Florizarre",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 2.0,
+    "poids": 100.0,
+    "evolution": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 5,
+    "nom": "Reptincel",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.1,
+    "poids": 19.0,
+    "evolution": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 6,
+    "nom": "Dracaufeu",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "taille": 1.7,
+    "poids": 90.5,
+    "evolution": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 8,
+    "nom": "Carabaffe",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 22.5,
+    "evolution": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 9,
+    "nom": "Tortank",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.6,
+    "poids": 85.5,
+    "evolution": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 11,
+    "nom": "Chrysacier",
+    "types": [
+      "Insecte"
+    ],
+    "taille": 0.7,
+    "poids": 9.9,
+    "evolution": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 12,
+    "nom": "Papilusion",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "taille": 1.1,
+    "poids": 32.0,
+    "evolution": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 14,
+    "nom": "Coconfort",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 0.6,
+    "poids": 10.0,
+    "evolution": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 15,
+    "nom": "Dardargnan",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 29.5,
+    "evolution": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 17,
+    "nom": "Roucoups",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.1,
+    "poids": 30.0,
+    "evolution": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "id": 18,
+    "nom": "Roucarnage",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.5,
+    "poids": 39.5,
+    "evolution": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "id": 20,
+    "nom": "Rattatac",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.7,
+    "poids": 18.5,
+    "evolution": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 22,
+    "nom": "Rapasdepic",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.2,
+    "poids": 38.0,
+    "evolution": [
+      21,
+      22
+    ]
+  },
+  {
+    "id": 24,
+    "nom": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "taille": 3.5,
+    "poids": 65.0,
+    "evolution": [
+      23,
+      24
+    ]
+  },
+  {
+    "id": 25,
+    "nom": "Pikachu",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.4,
+    "poids": 6.0,
+    "evolution": [
+      172,
+      25,
+      26
+    ]
+  },
+  {
+    "id": 26,
+    "nom": "Raichu",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.8,
+    "poids": 30.0,
+    "evolution": [
+      172,
+      25,
+      26
+    ]
+  },
+  {
+    "id": 28,
+    "nom": "Sablaireau",
+    "types": [
+      "Sol"
+    ],
+    "taille": 1.0,
+    "poids": 29.5,
+    "evolution": [
+      27,
+      28
+    ]
+  },
+  {
+    "id": 30,
+    "nom": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.8,
+    "poids": 20.0,
+    "evolution": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": 31,
+    "nom": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Sol"
+    ],
+    "taille": 1.3,
+    "poids": 60.0,
+    "evolution": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": 33,
+    "nom": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.9,
+    "poids": 19.5,
+    "evolution": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "id": 34,
+    "nom": "Nidoking",
+    "types": [
+      "Poison",
+      "Sol"
+    ],
+    "taille": 1.4,
+    "poids": 62.0,
+    "evolution": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "id": 35,
+    "nom": "Mélofée",
+    "types": [
+      "Fée"
+    ],
+    "taille": 0.6,
+    "poids": 7.5,
+    "evolution": [
+      173,
+      35,
+      36
+    ]
+  },
+  {
+    "id": 36,
+    "nom": "Mélodelfe",
+    "types": [
+      "Fée"
+    ],
+    "taille": 1.3,
+    "poids": 40.0,
+    "evolution": [
+      173,
+      35,
+      36
+    ]
+  },
+  {
+    "id": 38,
+    "nom": "Feunard",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.1,
+    "poids": 19.9,
+    "evolution": [
+      37,
+      38
+    ]
+  },
+  {
+    "id": 39,
+    "nom": "Rondoudou",
+    "types": [
+      "Normal",
+      "Fée"
+    ],
+    "taille": 0.5,
+    "poids": 5.5,
+    "evolution": [
+      174,
+      39,
+      40
+    ]
+  },
+  {
+    "id": 40,
+    "nom": "Grodoudou",
+    "types": [
+      "Normal",
+      "Fée"
+    ],
+    "taille": 1.0,
+    "poids": 12.0,
+    "evolution": [
+      174,
+      39,
+      40
+    ]
+  },
+  {
+    "id": 42,
+    "nom": "Nosferalto",
+    "types": [
+      "Poison",
+      "Vol"
+    ],
+    "taille": 1.6,
+    "poids": 55.0,
+    "evolution": [
+      41,
+      42
+    ]
+  },
+  {
+    "id": 44,
+    "nom": "Ortide",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 0.8,
+    "poids": 8.6,
+    "evolution": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": 45,
+    "nom": "Rafflesia",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.2,
+    "poids": 18.6,
+    "evolution": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": 47,
+    "nom": "Parasect",
+    "types": [
+      "Insecte",
+      "Plante"
+    ],
+    "taille": 1.0,
+    "poids": 29.5,
+    "evolution": [
+      46,
+      47
+    ]
+  },
+  {
+    "id": 49,
+    "nom": "Aéromite",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "taille": 1.5,
+    "poids": 12.5,
+    "evolution": [
+      48,
+      49
+    ]
+  },
+  {
+    "id": 51,
+    "nom": "Triopikeur",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.7,
+    "poids": 33.3,
+    "evolution": [
+      50,
+      51
+    ]
+  },
+  {
+    "id": 53,
+    "nom": "Persian",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.0,
+    "poids": 32.0,
+    "evolution": [
+      52,
+      [
+        53
+      ]
+    ]
+  },
+  {
+    "id": 55,
+    "nom": "Akwakwak",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.7,
+    "poids": 76.6,
+    "evolution": [
+      54,
+      55
+    ]
+  },
+  {
+    "id": 57,
+    "nom": "Colossinge",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.0,
+    "poids": 32.0,
+    "evolution": [
+      56,
+      57
+    ]
+  },
+  {
+    "id": 59,
+    "nom": "Arcanin",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.9,
+    "poids": 155.0,
+    "evolution": [
+      58,
+      59
+    ]
+  },
+  {
+    "id": 61,
+    "nom": "Têtarte",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 20.0,
+    "evolution": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": 62,
+    "nom": "Tartard",
+    "types": [
+      "Eau",
+      "Combat"
+    ],
+    "taille": 1.3,
+    "poids": 54.0,
+    "evolution": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": 64,
+    "nom": "Kadabra",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.3,
+    "poids": 56.5,
+    "evolution": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "id": 65,
+    "nom": "Alakazam",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.5,
+    "poids": 48.0,
+    "evolution": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "id": 67,
+    "nom": "Machopeur",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.5,
+    "poids": 70.5,
+    "evolution": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "id": 68,
+    "nom": "Mackogneur",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.6,
+    "poids": 130.0,
+    "evolution": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "id": 70,
+    "nom": "Boustiflor",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 6.4,
+    "evolution": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "id": 71,
+    "nom": "Empiflor",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.7,
+    "poids": 15.5,
+    "evolution": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "id": 73,
+    "nom": "Tentacruel",
+    "types": [
+      "Eau",
+      "Poison"
+    ],
+    "taille": 1.6,
+    "poids": 55.0,
+    "evolution": [
+      72,
+      73
+    ]
+  },
+  {
+    "id": 75,
+    "nom": "Gravalanch",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 1.0,
+    "poids": 105.0,
+    "evolution": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "id": 77,
+    "nom": "Ponyta",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.0,
+    "poids": 30.0,
+    "evolution": [
+      77,
+      78
+    ]
+  },
+  {
+    "id": 79,
+    "nom": "Ramoloss",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "taille": 1.2,
+    "poids": 36.0,
+    "evolution": [
+      79,
+      [
+        80
+      ]
+    ]
+  },
+  {
+    "id": 81,
+    "nom": "Magnéti",
+    "types": [
+      "Électrik",
+      "Acier"
+    ],
+    "taille": 0.3,
+    "poids": 6.0,
+    "evolution": [
+      81,
+      82
+    ]
+  },
+  {
+    "id": 83,
+    "nom": "Canarticho",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 0.8,
+    "poids": 15.0,
+    "evolution": []
+  },
+  {
+    "id": 84,
+    "nom": "Doduo",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.4,
+    "poids": 39.2,
+    "evolution": [
+      84,
+      85
+    ]
+  },
+  {
+    "id": 86,
+    "nom": "Otaria",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.1,
+    "poids": 90.0,
+    "evolution": [
+      86,
+      87
+    ]
+  },
+  {
+    "id": 88,
+    "nom": "Tadmorv",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.9,
+    "poids": 30.0,
+    "evolution": [
+      88,
+      89
+    ]
+  },
+  {
+    "id": 90,
+    "nom": "Kokiyas",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.3,
+    "poids": 4.0,
+    "evolution": [
+      90,
+      91
+    ]
+  },
+  {
+    "id": 92,
+    "nom": "Fantominus",
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "taille": 1.3,
+    "poids": 0.1,
+    "evolution": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "id": 95,
+    "nom": "Onix",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 8.8,
+    "poids": 210.0,
+    "evolution": []
+  },
+  {
+    "id": 96,
+    "nom": "Soporifik",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.0,
+    "poids": 32.4,
+    "evolution": [
+      96,
+      97
+    ]
+  },
+  {
+    "id": 98,
+    "nom": "Krabby",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.4,
+    "poids": 6.5,
+    "evolution": [
+      98,
+      99
+    ]
+  },
+  {
+    "id": 100,
+    "nom": "Voltorbe",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.5,
+    "poids": 10.4,
+    "evolution": [
+      100,
+      101
+    ]
+  },
+  {
+    "id": 102,
+    "nom": "Noeunoeuf",
+    "types": [
+      "Plante",
+      "Psy"
+    ],
+    "taille": 0.4,
+    "poids": 2.5,
+    "evolution": [
+      102,
+      103
+    ]
+  },
+  {
+    "id": 104,
+    "nom": "Osselait",
+    "types": [
+      "Sol"
+    ],
+    "taille": 0.4,
+    "poids": 6.5,
+    "evolution": [
+      104,
+      105
+    ]
+  },
+  {
+    "id": 108,
+    "nom": "Excelangue",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.2,
+    "poids": 65.5,
+    "evolution": []
+  },
+  {
+    "id": 109,
+    "nom": "Smogo",
+    "types": [
+      "Poison"
+    ],
+    "taille": 0.6,
+    "poids": 1.0,
+    "evolution": [
+      109,
+      110
+    ]
+  },
+  {
+    "id": 111,
+    "nom": "Rhinocorne",
+    "types": [
+      "Sol",
+      "Roche"
+    ],
+    "taille": 1.0,
+    "poids": 115.0,
+    "evolution": [
+      111,
+      112
+    ]
+  },
+  {
+    "id": 114,
+    "nom": "Saquedeneu",
+    "types": [
+      "Plante"
+    ],
+    "taille": 1.0,
+    "poids": 35.0,
+    "evolution": []
+  },
+  {
+    "id": 115,
+    "nom": "Kangourex",
+    "types": [
+      "Normal"
+    ],
+    "taille": 2.2,
+    "poids": 80.0,
+    "evolution": []
+  },
+  {
+    "id": 116,
+    "nom": "Hypotrempe",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.4,
+    "poids": 8.0,
+    "evolution": [
+      116,
+      117
+    ]
+  },
+  {
+    "id": 118,
+    "nom": "Poissirène",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.6,
+    "poids": 15.0,
+    "evolution": [
+      118,
+      119
+    ]
+  },
+  {
+    "id": 120,
+    "nom": "Stari",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.8,
+    "poids": 34.5,
+    "evolution": [
+      120,
+      121
+    ]
+  },
+  {
+    "id": 123,
+    "nom": "Insécateur",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "taille": 1.5,
+    "poids": 56.0,
+    "evolution": []
+  },
+  {
+    "id": 127,
+    "nom": "Scarabrute",
+    "types": [
+      "Insecte"
+    ],
+    "taille": 1.5,
+    "poids": 55.0,
+    "evolution": []
+  },
+  {
+    "id": 128,
+    "nom": "Tauros",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.4,
+    "poids": 88.4,
+    "evolution": []
+  },
+  {
+    "id": 129,
+    "nom": "Magicarpe",
+    "types": [
+      "Eau"
+    ],
+    "taille": 0.9,
+    "poids": 10.0,
+    "evolution": [
+      129,
+      130
+    ]
+  },
+  {
+    "id": 131,
+    "nom": "Lokhlass",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "taille": 2.5,
+    "poids": 220.0,
+    "evolution": []
+  },
+  {
+    "id": 132,
+    "nom": "Métamorph",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.3,
+    "poids": 4.0,
+    "evolution": []
+  },
+  {
+    "id": 133,
+    "nom": "Évoli",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.3,
+    "poids": 6.5,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ]
+  },
+  {
+    "id": 137,
+    "nom": "Porygon",
+    "types": [
+      "Normal"
+    ],
+    "taille": 0.8,
+    "poids": 36.5,
+    "evolution": []
+  },
+  {
+    "id": 138,
+    "nom": "Amonita",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 0.4,
+    "poids": 7.5,
+    "evolution": [
+      138,
+      139
+    ]
+  },
+  {
+    "id": 140,
+    "nom": "Kabuto",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 0.5,
+    "poids": 11.5,
+    "evolution": [
+      140,
+      141
+    ]
+  },
+  {
+    "id": 142,
+    "nom": "Ptéra",
+    "types": [
+      "Roche",
+      "Vol"
+    ],
+    "taille": 1.8,
+    "poids": 59.0,
+    "evolution": []
+  },
+  {
+    "id": 144,
+    "nom": "Artikodin",
+    "types": [
+      "Glace",
+      "Vol"
+    ],
+    "taille": 1.7,
+    "poids": 55.4,
+    "evolution": []
+  },
+  {
+    "id": 145,
+    "nom": "Électhor",
+    "types": [
+      "Électrik",
+      "Vol"
+    ],
+    "taille": 1.6,
+    "poids": 52.6,
+    "evolution": []
+  },
+  {
+    "id": 146,
+    "nom": "Sulfura",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "taille": 2.0,
+    "poids": 60.0,
+    "evolution": []
+  },
+  {
+    "id": 147,
+    "nom": "Minidraco",
+    "types": [
+      "Dragon"
+    ],
+    "taille": 1.8,
+    "poids": 3.3,
+    "evolution": [
+      147,
+      148,
+      149
+    ]
+  },
+  {
+    "id": 150,
+    "nom": "Mewtwo",
+    "types": [
+      "Psy"
+    ],
+    "taille": 2.0,
+    "poids": 122.0,
+    "evolution": []
+  },
+  {
+    "id": 78,
+    "nom": "Galopa",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.7,
+    "poids": 95.0,
+    "evolution": [
+      77,
+      78
+    ]
+  },
+  {
+    "id": 80,
+    "nom": "Flagadoss",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "taille": 1.6,
+    "poids": 78.5,
+    "evolution": [
+      79,
+      [
+        80
+      ]
+    ]
+  },
+  {
+    "id": 82,
+    "nom": "Magnéton",
+    "types": [
+      "Électrik",
+      "Acier"
+    ],
+    "taille": 1.0,
+    "poids": 60.0,
+    "evolution": [
+      81,
+      82
+    ]
+  },
+  {
+    "id": 85,
+    "nom": "Dodrio",
+    "types": [
+      "Normal",
+      "Vol"
+    ],
+    "taille": 1.8,
+    "poids": 85.2,
+    "evolution": [
+      84,
+      85
+    ]
+  },
+  {
+    "id": 87,
+    "nom": "Lamantine",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "taille": 1.7,
+    "poids": 120.0,
+    "evolution": [
+      86,
+      87
+    ]
+  },
+  {
+    "id": 89,
+    "nom": "Grotadmorv",
+    "types": [
+      "Poison"
+    ],
+    "taille": 1.2,
+    "poids": 30.0,
+    "evolution": [
+      88,
+      89
+    ]
+  },
+  {
+    "id": 91,
+    "nom": "Crustabri",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "taille": 1.5,
+    "poids": 132.5,
+    "evolution": [
+      90,
+      91
+    ]
+  },
+  {
+    "id": 93,
+    "nom": "Spectrum",
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "taille": 1.6,
+    "poids": 0.1,
+    "evolution": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "id": 94,
+    "nom": "Ectoplasma",
+    "types": [
+      "Spectre",
+      "Poison"
+    ],
+    "taille": 1.5,
+    "poids": 40.5,
+    "evolution": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "id": 97,
+    "nom": "Hypnomade",
+    "types": [
+      "Psy"
+    ],
+    "taille": 1.6,
+    "poids": 75.6,
+    "evolution": [
+      96,
+      97
+    ]
+  },
+  {
+    "id": 99,
+    "nom": "Krabboss",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.3,
+    "poids": 60.0,
+    "evolution": [
+      98,
+      99
+    ]
+  },
+  {
+    "id": 101,
+    "nom": "Électrode",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 1.2,
+    "poids": 66.6,
+    "evolution": [
+      100,
+      101
+    ]
+  },
+  {
+    "id": 103,
+    "nom": "Noadkoko",
+    "types": [
+      "Plante",
+      "Psy"
+    ],
+    "taille": 2.0,
+    "poids": 120.0,
+    "evolution": [
+      102,
+      103
+    ]
+  },
+  {
+    "id": 105,
+    "nom": "Ossatueur",
+    "types": [
+      "Sol"
+    ],
+    "taille": 1.0,
+    "poids": 45.0,
+    "evolution": [
+      104,
+      105
+    ]
+  },
+  {
+    "id": 106,
+    "nom": "Kicklee",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.5,
+    "poids": 49.8,
+    "evolution": [
+      236,
+      [
+        106,
+        107
+      ]
+    ]
+  },
+  {
+    "id": 107,
+    "nom": "Tygnon",
+    "types": [
+      "Combat"
+    ],
+    "taille": 1.4,
+    "poids": 50.2,
+    "evolution": [
+      236,
+      [
+        106,
+        107
+      ]
+    ]
+  },
+  {
+    "id": 110,
+    "nom": "Smogogo",
+    "types": [
+      "Poison"
+    ],
+    "taille": 1.2,
+    "poids": 9.5,
+    "evolution": [
+      109,
+      110
+    ]
+  },
+  {
+    "id": 112,
+    "nom": "Rhinoféros",
+    "types": [
+      "Sol",
+      "Roche"
+    ],
+    "taille": 1.9,
+    "poids": 120.0,
+    "evolution": [
+      111,
+      112
+    ]
+  },
+  {
+    "id": 113,
+    "nom": "Leveinard",
+    "types": [
+      "Normal"
+    ],
+    "taille": 1.1,
+    "poids": 34.6,
+    "evolution": [
+      440,
+      113
+    ]
+  },
+  {
+    "id": 117,
+    "nom": "Hypocéan",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.2,
+    "poids": 25.0,
+    "evolution": [
+      116,
+      117
+    ]
+  },
+  {
+    "id": 119,
+    "nom": "Poissoroy",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.3,
+    "poids": 39.0,
+    "evolution": [
+      118,
+      119
+    ]
+  },
+  {
+    "id": 121,
+    "nom": "Staross",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "taille": 1.1,
+    "poids": 80.0,
+    "evolution": [
+      120,
+      121
+    ]
+  },
+  {
+    "id": 122,
+    "nom": "M. Mime",
+    "types": [
+      "Psy",
+      "Fée"
+    ],
+    "taille": 1.3,
+    "poids": 54.5,
+    "evolution": [
+      439,
+      122
+    ]
+  },
+  {
+    "id": 124,
+    "nom": "Lippoutou",
+    "types": [
+      "Glace",
+      "Psy"
+    ],
+    "taille": 1.4,
+    "poids": 40.6,
+    "evolution": [
+      238,
+      124
+    ]
+  },
+  {
+    "id": 125,
+    "nom": "Élektek",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 1.1,
+    "poids": 30.0,
+    "evolution": [
+      239,
+      125
+    ]
+  },
+  {
+    "id": 126,
+    "nom": "Magmar",
+    "types": [
+      "Feu"
+    ],
+    "taille": 1.3,
+    "poids": 44.5,
+    "evolution": [
+      240,
+      126
+    ]
+  },
+  {
+    "id": 130,
+    "nom": "Léviator",
+    "types": [
+      "Eau",
+      "Vol"
+    ],
+    "taille": 6.5,
+    "poids": 235.0,
+    "evolution": [
+      129,
+      130
+    ]
+  },
+  {
+    "id": 134,
+    "nom": "Aquali",
+    "types": [
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 29.0,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ]
+  },
+  {
+    "id": 135,
+    "nom": "Voltali",
+    "types": [
+      "Électrik"
+    ],
+    "taille": 0.8,
+    "poids": 24.5,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ]
+  },
+  {
+    "id": 136,
+    "nom": "Pyroli",
+    "types": [
+      "Feu"
+    ],
+    "taille": 0.9,
+    "poids": 25.0,
+    "evolution": [
+      133,
+      [
+        134,
+        135,
+        136
+      ]
+    ]
+  },
+  {
+    "id": 139,
+    "nom": "Amonistar",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 1.0,
+    "poids": 35.0,
+    "evolution": [
+      138,
+      139
+    ]
+  },
+  {
+    "id": 141,
+    "nom": "Kabutops",
+    "types": [
+      "Roche",
+      "Eau"
+    ],
+    "taille": 1.3,
+    "poids": 40.5,
+    "evolution": [
+      140,
+      141
+    ]
+  },
+  {
+    "id": 143,
+    "nom": "Ronflex",
+    "types": [
+      "Normal"
+    ],
+    "taille": 2.1,
+    "poids": 460.0,
+    "evolution": [
+      446,
+      143
+    ]
+  },
+  {
+    "id": 148,
+    "nom": "Draco",
+    "types": [
+      "Dragon"
+    ],
+    "taille": 4.0,
+    "poids": 16.5,
+    "evolution": [
+      147,
+      148,
+      149
+    ]
+  },
+  {
+    "id": 149,
+    "nom": "Dracolosse",
+    "types": [
+      "Dragon",
+      "Vol"
+    ],
+    "taille": 2.2,
+    "poids": 210.0,
+    "evolution": [
+      147,
+      148,
+      149
+    ]
+  },
+  {
+    "id": 151,
+    "nom": "Mew",
+    "types": [
+      "Psy"
+    ],
+    "taille": 0.4,
+    "poids": 4.0,
+    "evolution": []
+  },
+  {
+    "id": 2,
+    "nom": "Herbizarre",
+    "types": [
+      "Plante",
+      "Poison"
+    ],
+    "taille": 1.0,
+    "poids": 13.0,
+    "evolution": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 76,
+    "nom": "Grolem",
+    "types": [
+      "Roche",
+      "Sol"
+    ],
+    "taille": 1.4,
+    "poids": 300.0,
+    "evolution": [
+      74,
+      75,
+      76
+    ]
+  }
+]
