@@ -1,0 +1,21 @@
+key,fr
+welcome,Bienvenue dans Pokenator! Pensez à un Pokémon de la première génération et je vais essayer de le deviner.
+thinking,Réfléchissons...
+analyzing,Analysons les possibilités...
+answer_yes_no,Répondez par oui ou non aux questions suivantes.
+type_question,Est-ce que votre Pokémon est de type {type}?
+color_question,Est-ce que votre Pokémon est principalement de couleur {color}?
+height_light,Est-ce que votre Pokémon est petit (moins de 0.70m)?
+height_heavy,Est-ce que votre Pokémon est grand (plus de 1.50m)?
+height_medium,Est-ce que votre Pokémon est de taille moyenne (entre 0.70m et 1.50m)?
+weight_light,Est-ce que votre Pokémon est léger (moins de 9.90kg)?
+weight_heavy,Est-ce que votre Pokémon est lourd (plus de 56.25kg)?
+weight_medium,Est-ce que votre Pokémon est de poids moyen (entre 9.90kg et 56.25kg)?
+evolution_final,Est-ce que votre Pokémon est à sa forme finale? (comme Dracaufeu, Papilusion, etc.)
+evolution_can,Est-ce que votre Pokémon peut encore évoluer? (comme Salamèche, Carapuce, etc.)
+letter_question,Est-ce que votre Pokémon commence par la lettre {letter}?
+final_guess,Je pense que c'est {pokemon}! Est-ce correct?
+correct_guess,Super! J'ai deviné correctement!
+wrong_guess,Ah, je me suis trompé. Quel était votre Pokémon?
+error_understanding,Désolé, je n'ai pas compris. Pouvez-vous répondre par oui ou non?
+goodbye,Merci d'avoir joué! À bientôt!

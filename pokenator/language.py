@@ -4,51 +4,33 @@ This module handles text generation, translations, and language-specific content
 It provides functions for generating questions and formatting text in different languages.
 """
 import unicodedata
-from typing import Dict, Any, List, Tuple
+import os
+import csv
+from typing import Dict, Any
 
-# Translation dictionaries for attributes
-ATTRIBUTE_TRANSLATIONS = {
-    "type": "type",
-    "primary_color": "primary color",
-    "height_category": "height",
-    "weight_category": "weight",
-    "can_evolve": "evolution"
-}
+class LocalizationManager:
+    def __init__(self, language: str = 'fr'):
+        self.language = language
+        self.translations: Dict[str, str] = {}
+        self._load_translations()
+    
+    def _load_translations(self):
+        """Load translations from the CSV file."""
+        csv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'locals.csv')
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                self.translations[row['key']] = row[self.language]
+    
+    def get_text(self, key: str, **kwargs) -> str:
+        """Get translated text with optional format arguments."""
+        text = self.translations.get(key, key)
+        if kwargs:
+            return text.format(**kwargs)
+        return text
 
-# Translation dictionaries for colors
-COLOR_TRANSLATIONS = {
-    "red": "rouge",
-    "blue": "bleu",
-    "green": "vert",
-    "yellow": "jaune",
-    "brown": "marron",
-    "purple": "violet",
-    "pink": "rose",
-    "gray": "gris",
-    "black": "noir",
-    "white": "blanc",
-    "orange": "orange"
-}
-
-# Translation dictionaries for height categories
-HEIGHT_TRANSLATIONS = {
-    "small": "petit",
-    "medium": "moyen",
-    "large": "grand"
-}
-
-# Translation dictionaries for weight categories
-WEIGHT_TRANSLATIONS = {
-    "light": "léger",
-    "medium": "moyen",
-    "heavy": "lourd"
-}
-
-# Translation dictionaries for evolution
-EVOLUTION_TRANSLATIONS = {
-    True: "peut évoluer",
-    False: "ne peut pas évoluer"
-}
+# Global instance
+localization = LocalizationManager()
 
 # Size classification brackets based on statistical analysis
 HEIGHT_BRACKETS = {
@@ -82,58 +64,32 @@ def get_first_letter(name: str) -> str:
 
 def generate_type_question(type_value: str) -> str:
     """Generate a question about a Pokémon's type in French."""
-    return f"Est-ce que votre Pokémon est de type {type_value}?"
+    return localization.get_text('type_question', type=type_value)
 
 def generate_color_question(color_value: str) -> str:
     """Generate a question about a Pokémon's primary color in French."""
-    french_color = COLOR_TRANSLATIONS.get(color_value, color_value)
-    return f"Est-ce que votre Pokémon est principalement {french_color}?"
+    return localization.get_text('color_question', color=color_value)
 
 def generate_height_question(height_value: str) -> str:
     """Generate a question about a Pokémon's height category in French."""
-    french_height = HEIGHT_TRANSLATIONS.get(height_value, height_value)
-    
-    # Add examples for extremes to make questions clearer
-    if height_value == 'small':
-        return f"Est-ce que votre Pokémon est {french_height} (moins de 0.70m)?"
-    elif height_value == 'large':
-        return f"Est-ce que votre Pokémon est {french_height} (plus de 1.50m)?"
-    else:
-        return f"Est-ce que votre Pokémon est {french_height} (en taille)?"
+    return localization.get_text(f'height_{height_value}')
 
 def generate_weight_question(weight_value: str) -> str:
     """Generate a question about a Pokémon's weight category in French."""
-    french_weight = WEIGHT_TRANSLATIONS.get(weight_value, weight_value)
-    
-    # Add examples for extremes to make questions clearer
-    if weight_value == 'light':
-        return f"Est-ce que votre Pokémon est {french_weight} (moins de 9.90kg)?"
-    elif weight_value == 'heavy':
-        return f"Est-ce que votre Pokémon est {french_weight} (plus de 56.25kg)?"
-    else:
-        return f"Est-ce que votre Pokémon est {french_weight} (en poids)?"
+    return localization.get_text(f'weight_{weight_value}')
 
 def generate_evolution_question(can_evolve: bool) -> str:
-    """Generate a question about a Pokémon's evolution capability in French.
-    
-    Args:
-        can_evolve: True to ask if it can evolve, False to ask if it's in final form
-        
-    Returns:
-        A formatted question string in French
-    """
-    if not can_evolve:  # Asking about final form
-        return "Est-ce que votre Pokémon est à sa forme finale? (comme Dracaufeu, Papilusion, etc.)"
-    else:  # Asking about ability to evolve
-        return "Est-ce que votre Pokémon peut encore évoluer? (comme Salamèche, Carapuce, etc.)"
+    """Generate a question about a Pokémon's evolution capability in French."""
+    key = 'evolution_can' if can_evolve else 'evolution_final'
+    return localization.get_text(key)
 
 def generate_final_guess_question(pokemon_name: str) -> str:
     """Generate a final guess question in French."""
-    return f"Est-ce que c'est {pokemon_name}?"
+    return localization.get_text('final_guess', pokemon=pokemon_name)
 
 def generate_error_message() -> str:
     """Generate an error message in French when no Pokémon matches the criteria."""
-    return "Je ne trouve pas de Pokémon correspondant à vos réponses!"
+    return localization.get_text('error_understanding')
 
 def generate_question(attribute: str, value: Any) -> str:
     """Generate a question based on the attribute and value.
@@ -157,4 +113,4 @@ def generate_question(attribute: str, value: Any) -> str:
         return generate_evolution_question(value)
     else:
         # Default format for other attributes
-        return f"Est-ce que votre Pokémon a {attribute} = {value}?"
+        return localization.get_text('default_question', attribute=attribute, value=value)
