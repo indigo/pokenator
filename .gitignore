@@ -20,10 +20,24 @@ var/
 .installed.cfg
 *.egg
 
+# Debug and test scripts
+debug_*.py
+test_*.py
+check_*.py
+
+# Backup files
+*.backup
+
+# Audio generation scripts (except the main ones)
+generate_*.py
+!generate_voice_with_gtts.py
+!generate_evolution_audio.py
+
 # Environment variables
 .env
 
 # Virtual environments
+.venv
 venv/
 ENV/
 
